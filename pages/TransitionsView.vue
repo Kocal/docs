@@ -1,6 +1,6 @@
 <template lang="pug">
   component-view(:doc="doc")
-    h6 Create your own
+    section-header Create your own
     section-text You can use Vuetify's transition helper function to easily create your own custom transitions. This function will return an object that you can import into Vue. Using Vue's <a href="https://vuejs.org/v2/guide/render-function.html#Functional-Components" target="_blank" rel="noopener">functional component</a> option will make sure your transition is as efficient as possible. Simply import the function:
     markup(lang="javascript")
       |import { createSimpleTransition } from '../../node_modules/vuetify/src/util/helpers'
